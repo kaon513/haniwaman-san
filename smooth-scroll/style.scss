@@ -1,0 +1,68 @@
+//compileNested: $1.css
+
+body{
+  
+  padding-top: 70px;
+}
+header{
+  display: flex;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  position: fixed;
+  align-items: center;
+  // justify-content: ;
+  height: 70px;
+  top:0;
+  background-color: #fff;
+  width: 100%;
+}
+
+h1{
+  padding-left: 2em;
+  padding-right: 2em;
+  width:100px;
+}
+
+h2{
+  padding-top: 2em;
+  padding-bottom: .5em;
+}
+
+nav{
+  margin-left: auto;
+  padding-right: 3em;
+}
+
+ul{
+  // margin-left: auto;
+  display: flex;
+  list-style: none;
+
+  li+li{
+    margin-left: 1em;
+  }
+}
+
+#sect{
+  &1{
+
+    padding: 1em;
+    background-color: #8FC9F8;
+  }
+  &2{
+    padding: 1em;
+    background-color: #ED524E;
+  }
+  &3{
+    padding: 1em;
+    background-color: #24A599;
+  }
+  &4{
+    padding: 1em;
+    background-color: #f8f68f;
+  }
+  &5{
+    padding: 1em;
+    background-color: #f88ff3;
+  }
+}
